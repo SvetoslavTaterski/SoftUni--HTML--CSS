@@ -1,0 +1,57 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+}
+
+blockquote {
+  border-left:5px solid #ccc;
+  font-family: italic;
+}
+
+blockquote p {
+padding-left: 20px;
+}
+
+footer {
+  text-align: right;
+}
+
+th {
+    text-align: left;
+    background-color: #ccc;
+    width: 144px;
+    height: 32px;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 5px;
+}
+
+td {
+    width: 144px;
+    height: 32px;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: #cccccccb;
+}
+
+table {
+    height: 95%;
+    width: 95%;
+    padding-left: 25px;
+}
