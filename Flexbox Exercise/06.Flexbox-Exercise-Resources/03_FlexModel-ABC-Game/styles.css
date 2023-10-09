@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    max-width: 25vw;
+    max-height: 34rem;
+    flex-direction: column;
+    gap: 1em;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+span {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 1em 2.5em 1em 2.5em;
+    margin-left: 0.2em;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#S{
+    order: 1;
+}
+#e{
+    order: 2;
+}
+#m{
+    order: 3;
+}
+#a{
+    order: 4;
+}
+#n{
+    order: 5;
+}
+#t{
+    order: 6;
+}
+#i{
+    order: 7;
+}
+#c{
+    order: 8;
+}
+#H{
+    order: 9;
+}
+#T{
+    order: 10;
+}
+#M{
+    order: 11;
+}
+#L{
+    order: 12;
+}
