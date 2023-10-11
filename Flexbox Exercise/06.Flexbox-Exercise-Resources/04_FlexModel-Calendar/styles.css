@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div,
+section {
+  display: flex;
+}
+
+span {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  padding: 0.5em;
+  text-align: center;
+  flex-grow: 1;
+  padding-bottom: 2em;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.notes {
+  flex-direction: column;
+}
+
+section.week span:nth-child(1), 
+section.week span:nth-child(7){
+    flex-basis: 100%;
+    padding-bottom: 3em;
+}
+
+.container {
+  display: flex;
+  max-width: 80vh;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+section.notes span:nth-child(1){
+   padding-bottom: 50px;
+}

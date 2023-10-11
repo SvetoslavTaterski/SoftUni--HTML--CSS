@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1.5em;
+    margin: 1.5em;
+}
+
+header {
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    padding-top: 1em;
+}
+
+main h2{
+    margin-top: 1em;
+}
+
+main p{
+    margin-top: 1em;
+    line-height: 1.3;
+}
+
+header ul{
+    display: flex;
+    color: rgb(0, 153, 0);
+    list-style: none;
+    justify-content: end;
+    padding: 1em;
+}
+
+li{
+    padding: 1em;
+}
+
+h1 {
+    padding: 1em;
+}
