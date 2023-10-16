@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em;
+    margin: 1em 1em 0 1em;
+}
+
+header, aside, main, footer{
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+header, footer{
+    flex-basis: 100%;
+    padding: 1em;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 27%;
+}
+
+aside p{
+    margin: 0.5em;
+}
+
+main{
+    display: flex;
+    flex-basis: 70%;
+    flex-direction: column;
+    padding: 1.5em;
+    align-items: start;
+}
+
+@media screen and (max-width: 500px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
