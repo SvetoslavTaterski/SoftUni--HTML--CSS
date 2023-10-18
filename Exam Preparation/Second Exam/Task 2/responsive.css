@@ -1,0 +1,53 @@
+@media screen and (max-width:600px){
+    body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    header nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-description-wrapper ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .team-description-wrapper ul li img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .team-description-wrapper ul li p{
+        padding-bottom: 1em;
+    }
+
+    .choose-us ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-list{
+        display: flex;
+        flex-direction: column;
+    }
+}
