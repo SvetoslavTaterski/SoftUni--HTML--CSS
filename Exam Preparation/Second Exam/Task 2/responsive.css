@@ -49,5 +49,19 @@
     .blog-list{
         display: flex;
         flex-direction: column;
+        gap: 1em;
+    }
+
+    .blog-list .item{
+        margin: 1em 2em 1em 2em;
+    }
+    .choose-us li{
+        max-width: 250px;
+        text-align: center;
+    }
+    .choose-us{
+        display: flex;
+        justify-content: center;
+        gap: 2em;
     }
 }

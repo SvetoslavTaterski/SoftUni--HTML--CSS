@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    padding: 10em;
+    background-color: #d9d9d9;
+}
+
+main{
+    width: 1200px;
+    display: flex;
+    gap: 1em;
+
+}
+
+.card{
+    flex: 1 1 30%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.card p, .card h2{
+    padding: 0 1em;
+}
+
+.card p:nth-child(4){
+    padding-bottom: 1em;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/0.5;
+}
+
+.media{
+    display: flex;
+    align-items: center;
+    gap:0.2em;
+}
+
+.footer{
+    display: flex;
+    flex: 1 1 50%;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer img{
+    width: 40px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+.enterprise{
+    color:#595959
+}
+
+.minutes{
+    color: #aba6af;
+}
+
+.text{
+    color: #758497;
+}
+
+h2{
+    font-weight: normal;
+}
+
+.line{
+    background-color:#d9d9d9 ;
+    padding: 0.5em;
+}
+
+.line hr{
+    border: 1px solid black;
+}

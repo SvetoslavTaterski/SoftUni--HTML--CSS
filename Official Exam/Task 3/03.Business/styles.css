@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: PT Serif;
+}
+
+hr{
+    border: 1px solid gray;
+}
+
+.header{
+    line-height: 1.5;
+    display: flex;
+    color: white;
+    height: 400px;
+    justify-content: space-around;
+    gap:1em;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header > *{
+    padding: 1em 1em 1em 1em;
+}
+
+.header img{
+    width: 120px;
+    height: 100px;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 50%;
+}
+
+.header-text p{
+    padding-top: 1em;
+}
+
+.header nav ul{
+    display: flex;
+    list-style: none;
+    gap:1em;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    gap:5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.article{
+    width: 40%;
+    height: auto;
+}
+
+.article h2{
+    font-size: 30px;
+}
+
+.article p{
+    width: 75%;
+    padding: 0 0 1em 0;
+}
+
+.article a{
+    text-decoration: none;
+    border: 2px solid #b0825c;
+    color: #b0825c;
+}
+
+.article > *{
+    padding: 0.5em;
+}
+
+.main2{
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.main2 h2{
+    color: #b0825c;
+    padding: 1em;
+    font-size: 30px;
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+    gap:3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.media img{
+    width: 100px;
+    background-color: #dddddd;
+    border-radius: 50%;
+    padding: 1em;
+    aspect-ratio: 1/1;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    padding: 1em 10em 1em 10em;
+}
+
+.footer h3{
+    padding: 1em 1em 1em 0;
+}
+
+.footer p{
+    padding: 0.5em 0.5em 0.5em 0;
+    color: #8d9595;
+}
+
+footer{
+    padding: 1em;
+    background-color: black;
+}
+
+footer p {
+    color: #8d9595;
+    padding-left: 9em;
+}
